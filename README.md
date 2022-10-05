@@ -35,7 +35,7 @@ OK
 ```
 
 ## As an Azure HTTP Function
-Start the local Azure function and access it.
+Start the local Azure function and access it. Guide is available [here](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python)
 * For current time: `http://localhost:7071/api/HttpExample`
 * With user supplied query: `http://localhost:7071/api/HttpExample?time=14:00`
 
