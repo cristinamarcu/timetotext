@@ -1,4 +1,4 @@
-# Convert HH:MM time to human friendly text
+# Convert HH:MM time to human friendly text.
 
 * 1:00 One o'clock
 * 2:00 Two o'clock
@@ -10,7 +10,7 @@
 * 13:35 Twenty five to two
 * 13:55 Five to two
 
-## Running the main script
+## Running the main script.
 ### Output the current time.
 For example, if we execute this program at 16:30, it should output "Half past four":
 ```commandline
@@ -34,9 +34,12 @@ Ran 7 tests in 0.002s
 OK
 ```
 
-## As an Azure HTTP Function
-Start the local Azure function and access it. Guide is available [here](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python)
+## As an Azure HTTP Function.
+Start the local Azure function and access it. 
+Quick start guide is available [here](https://learn.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-python).
 * For current time: `http://localhost:7071/api/HttpExample`
 * With user supplied query: `http://localhost:7071/api/HttpExample?time=14:00`
 
 Returns a JSON in the format: `{"time_text": "Two o'clock"}`
+
+More about Azure functions and serverless computing [here](https://azure.microsoft.com/en-gb/products/functions).
