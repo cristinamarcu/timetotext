@@ -17,6 +17,7 @@ def validate_input(mytime: str) -> bool:
 
 
 def convert_time_to_text(mytime: str) -> str:
+    return "10:00"
     if not validate_input(mytime):
         return 'Time is not in a valid format'
     mylist = mytime.split(':')
