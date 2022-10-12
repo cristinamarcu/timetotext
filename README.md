@@ -1,3 +1,6 @@
+![example workflow](https://github.com/cristinamarcu/timetotext/actions/workflows/python-app.yml/badge.svg)
+
+
 # Convert HH:MM time to human friendly text.
 
 * 1:00 One o'clock
