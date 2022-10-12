@@ -36,6 +36,8 @@ Ran 7 tests in 0.002s
 
 OK
 ```
+Unit tests are run by **Github CI** [Actions](https://docs.github.com/en/actions). 
+See the status on the Actions tab of the repo and in each pull request. 
 
 ## As an Azure HTTP Function.
 Start the local Azure function and access it. 
